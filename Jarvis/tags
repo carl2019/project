@@ -1,0 +1,328 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS_TOKEN_URL	speech/base/base.h	/^    static const std::string ACCESS_TOKEN_URL = "https:\/\/aip.baidubce.com\/oauth\/2.0\/token";$/;"	m	namespace:aip
+AIP_SDK_VERSION	speech/base/base.h	/^    static const char* AIP_SDK_VERSION = "0.7.4";$/;"	m	namespace:aip
+AipBase	speech/base/base.h	/^        AipBase(const std::string & app_id, const std::string & ak, const std::string & sk):$/;"	f	class:aip::AipBase
+AipBase	speech/base/base.h	/^    class AipBase$/;"	c	namespace:aip
+BASE64	speech/base/base.h	/^    enum class VECTOR_JOIN_TYPE {BASE64, URL};$/;"	m	class:aip::VECTOR_JOIN_TYPE
+Bodyanalysis	speech/body_analysis.h	/^        Bodyanalysis(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Bodyanalysis
+Bodyanalysis	speech/body_analysis.h	/^    class Bodyanalysis: public AipBase$/;"	c	namespace:aip
+CC	makefile	/^CC=g++$/;"	m
+CURL_ERROR_CODE	speech/base/base.h	/^    static const char* CURL_ERROR_CODE = "curl_error_code";$/;"	m	namespace:aip
+Contentcensor	speech/content_censor.h	/^        Contentcensor(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Contentcensor
+Contentcensor	speech/content_censor.h	/^    class Contentcensor: public AipBase$/;"	c	namespace:aip
+Face	speech/face.h	/^        Face(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Face
+Face	speech/face.h	/^    class Face: public AipBase$/;"	c	namespace:aip
+HttpClient	speech/base/http.h	/^    class HttpClient$/;"	c	namespace:aip
+Imageclassify	speech/image_classify.h	/^        Imageclassify(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Imageclassify
+Imageclassify	speech/image_classify.h	/^    class Imageclassify: public AipBase$/;"	c	namespace:aip
+Imagesearch	speech/image_search.h	/^        Imagesearch(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Imagesearch
+Imagesearch	speech/image_search.h	/^    class Imagesearch: public AipBase$/;"	c	namespace:aip
+Jarvis	Jarvis.hpp	/^		Jarvis(){$/;"	f	class:Jarvis
+Jarvis	Jarvis.hpp	/^class Jarvis{$/;"	c
+JsonParse	test/test.cc	/^void JsonParse(std::string &s)$/;"	f
+Kg	speech/kg.h	/^        Kg(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Kg
+Kg	speech/kg.h	/^    class Kg: public AipBase$/;"	c	namespace:aip
+MessageToJson	Jarvis.hpp	/^		std::string MessageToJson(std::string &message)$/;"	f	class:Robot
+Nlp	speech/nlp.h	/^        Nlp(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Nlp
+Nlp	speech/nlp.h	/^    class Nlp: public AipBase$/;"	c	namespace:aip
+Ocr	speech/ocr.h	/^        Ocr(const std::string & app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Ocr
+Ocr	speech/ocr.h	/^    class Ocr: public AipBase$/;"	c	namespace:aip
+RequestTL	Jarvis.hpp	/^		void RequestTL(std::string &request_json)$/;"	f	class:Robot
+Robot	Jarvis.hpp	/^		Robot()$/;"	f	class:Robot
+Robot	Jarvis.hpp	/^class Robot{$/;"	c
+Speech	speech/speech.h	/^        Speech(const std::string app_id, const std::string & ak, const std::string & sk): AipBase(app_id, ak, sk)$/;"	f	class:aip::Speech
+Speech	speech/speech.h	/^    class Speech: public AipBase$/;"	c	namespace:aip
+SpeechRec	Jarvis.hpp	/^class SpeechRec{$/;"	c
+Talk	Jarvis.hpp	/^		std::string Talk(std::string message)$/;"	f	class:Robot
+Util	Jarvis.hpp	/^class Util{ \/\/tool$/;"	c
+VECTOR_JOIN_TYPE	speech/base/base.h	/^    enum class VECTOR_JOIN_TYPE {BASE64, URL};$/;"	c	namespace:aip
+__AIP_BASE64_H__	speech/base/base64.h	16;"	d
+__AIP_BASE_H__	speech/base/base.h	16;"	d
+__AIP_BODYANALYSIS_H__	speech/body_analysis.h	17;"	d
+__AIP_CONTENTCENSOR_H__	speech/content_censor.h	17;"	d
+__AIP_FACE_H__	speech/face.h	17;"	d
+__AIP_HTTP_H__	speech/base/http.h	16;"	d
+__AIP_IMAGECLASSIFY_H__	speech/image_classify.h	17;"	d
+__AIP_IMAGESEARCH_H__	speech/image_search.h	17;"	d
+__AIP_KG_H__	speech/kg.h	17;"	d
+__AIP_NLP_H__	speech/nlp.h	17;"	d
+__AIP_OCR_H__	speech/ocr.h	17;"	d
+__AIP_SPEECH_H__	speech/speech.h	2;"	d
+__AIP_UTILS_H__	speech/base/utils.h	16;"	d
+__BCE_EXPIRE__	speech/base/utils.h	/^const int __BCE_EXPIRE__ = 1800;$/;"	v
+__BCE_VERSION__	speech/base/utils.h	/^const int __BCE_VERSION__ = 1;$/;"	v
+_accurate	speech/ocr.h	/^        std::string _accurate =$/;"	m	class:aip::Ocr
+_accurate_basic	speech/ocr.h	/^        std::string _accurate_basic =$/;"	m	class:aip::Ocr
+_advanced_general	speech/image_classify.h	/^        std::string _advanced_general =$/;"	m	class:aip::Imageclassify
+_animal_detect	speech/image_classify.h	/^        std::string _animal_detect =$/;"	m	class:aip::Imageclassify
+_anti_porn	speech/content_censor.h	/^        std::string _anti_porn =$/;"	m	class:aip::Contentcensor
+_anti_porn_gif	speech/content_censor.h	/^        std::string _anti_porn_gif =$/;"	m	class:aip::Contentcensor
+_anti_spam	speech/content_censor.h	/^        std::string _anti_spam =$/;"	m	class:aip::Contentcensor
+_app_id	speech/base/base.h	/^        std::string _app_id;$/;"	m	class:aip::AipBase
+_asr	speech/speech.h	/^        std::string _asr = "https:\/\/vop.baidu.com\/server_api";$/;"	m	class:aip::Speech
+_bankcard	speech/ocr.h	/^        std::string _bankcard =$/;"	m	class:aip::Ocr
+_body_analysis	speech/body_analysis.h	/^        std::string _body_analysis =$/;"	m	class:aip::Bodyanalysis
+_body_attr	speech/body_analysis.h	/^        std::string _body_attr =$/;"	m	class:aip::Bodyanalysis
+_body_num	speech/body_analysis.h	/^        std::string _body_num =$/;"	m	class:aip::Bodyanalysis
+_business_card	speech/ocr.h	/^        std::string _business_card =$/;"	m	class:aip::Ocr
+_business_license	speech/ocr.h	/^        std::string _business_license =$/;"	m	class:aip::Ocr
+_car_detect	speech/image_classify.h	/^        std::string _car_detect =$/;"	m	class:aip::Imageclassify
+_combo	speech/content_censor.h	/^        std::string _combo =$/;"	m	class:aip::Contentcensor
+_comment_tag	speech/nlp.h	/^        std::string _comment_tag =$/;"	m	class:aip::Nlp
+_create_task	speech/kg.h	/^        std::string _create_task =$/;"	m	class:aip::Kg
+_custom	speech/ocr.h	/^        std::string _custom =$/;"	m	class:aip::Ocr
+_dep_parser	speech/nlp.h	/^        std::string _dep_parser =$/;"	m	class:aip::Nlp
+_detect	speech/face.h	/^        std::string _detect =$/;"	m	class:aip::Face
+_dish_detect	speech/image_classify.h	/^        std::string _dish_detect =$/;"	m	class:aip::Imageclassify
+_dnnlm_cn	speech/nlp.h	/^        std::string _dnnlm_cn =$/;"	m	class:aip::Nlp
+_driving_license	speech/ocr.h	/^        std::string _driving_license =$/;"	m	class:aip::Ocr
+_ecnet	speech/nlp.h	/^        std::string _ecnet =$/;"	m	class:aip::Nlp
+_emotion	speech/nlp.h	/^        std::string _emotion =$/;"	m	class:aip::Nlp
+_expired_time	speech/base/base.h	/^        int _expired_time;$/;"	m	class:aip::AipBase
+_face_audit	speech/content_censor.h	/^        std::string _face_audit =$/;"	m	class:aip::Contentcensor
+_face_delete	speech/face.h	/^        std::string _face_delete =$/;"	m	class:aip::Face
+_face_getlist	speech/face.h	/^        std::string _face_getlist =$/;"	m	class:aip::Face
+_form	speech/ocr.h	/^        std::string _form =$/;"	m	class:aip::Ocr
+_general	speech/ocr.h	/^        std::string _general =$/;"	m	class:aip::Ocr
+_general_basic	speech/ocr.h	/^        std::string _general_basic =$/;"	m	class:aip::Ocr
+_general_enhanced	speech/ocr.h	/^        std::string _general_enhanced =$/;"	m	class:aip::Ocr
+_group_add	speech/face.h	/^        std::string _group_add =$/;"	m	class:aip::Face
+_group_delete	speech/face.h	/^        std::string _group_delete =$/;"	m	class:aip::Face
+_group_getlist	speech/face.h	/^        std::string _group_getlist =$/;"	m	class:aip::Face
+_group_getusers	speech/face.h	/^        std::string _group_getusers =$/;"	m	class:aip::Face
+_handwriting	speech/ocr.h	/^        std::string _handwriting =$/;"	m	class:aip::Ocr
+_idcard	speech/ocr.h	/^        std::string _idcard =$/;"	m	class:aip::Ocr
+_is_bce	speech/base/base.h	/^        bool _is_bce;$/;"	m	class:aip::AipBase
+_keyword	speech/nlp.h	/^        std::string _keyword =$/;"	m	class:aip::Nlp
+_lexer	speech/nlp.h	/^        std::string _lexer =$/;"	m	class:aip::Nlp
+_lexer_custom	speech/nlp.h	/^        std::string _lexer_custom =$/;"	m	class:aip::Nlp
+_license_plate	speech/ocr.h	/^        std::string _license_plate =$/;"	m	class:aip::Ocr
+_logo_add	speech/image_classify.h	/^        std::string _logo_add =$/;"	m	class:aip::Imageclassify
+_logo_delete	speech/image_classify.h	/^        std::string _logo_delete =$/;"	m	class:aip::Imageclassify
+_logo_search	speech/image_classify.h	/^        std::string _logo_search =$/;"	m	class:aip::Imageclassify
+_lottery	speech/ocr.h	/^        std::string _lottery =$/;"	m	class:aip::Ocr
+_numbers	speech/ocr.h	/^        std::string _numbers =$/;"	m	class:aip::Ocr
+_object_detect	speech/image_classify.h	/^        std::string _object_detect =$/;"	m	class:aip::Imageclassify
+_passport	speech/ocr.h	/^        std::string _passport =$/;"	m	class:aip::Ocr
+_person_verify	speech/face.h	/^        std::string _person_verify =$/;"	m	class:aip::Face
+_plant_detect	speech/image_classify.h	/^        std::string _plant_detect =$/;"	m	class:aip::Imageclassify
+_product_add	speech/image_search.h	/^        std::string _product_add =$/;"	m	class:aip::Imagesearch
+_product_delete	speech/image_search.h	/^        std::string _product_delete =$/;"	m	class:aip::Imagesearch
+_product_search	speech/image_search.h	/^        std::string _product_search =$/;"	m	class:aip::Imagesearch
+_product_update	speech/image_search.h	/^        std::string _product_update =$/;"	m	class:aip::Imagesearch
+_qrcode	speech/ocr.h	/^        std::string _qrcode =$/;"	m	class:aip::Ocr
+_receipt	speech/ocr.h	/^        std::string _receipt =$/;"	m	class:aip::Ocr
+_report	speech/content_censor.h	/^        std::string _report =$/;"	m	class:aip::Contentcensor
+_same_hq_add	speech/image_search.h	/^        std::string _same_hq_add =$/;"	m	class:aip::Imagesearch
+_same_hq_delete	speech/image_search.h	/^        std::string _same_hq_delete =$/;"	m	class:aip::Imagesearch
+_same_hq_search	speech/image_search.h	/^        std::string _same_hq_search =$/;"	m	class:aip::Imagesearch
+_same_hq_update	speech/image_search.h	/^        std::string _same_hq_update =$/;"	m	class:aip::Imagesearch
+_scope	speech/base/base.h	/^        std::string _scope;$/;"	m	class:aip::AipBase
+_search	speech/face.h	/^        std::string _search =$/;"	m	class:aip::Face
+_sentiment_classify	speech/nlp.h	/^        std::string _sentiment_classify =$/;"	m	class:aip::Nlp
+_similar_add	speech/image_search.h	/^        std::string _similar_add =$/;"	m	class:aip::Imagesearch
+_similar_delete	speech/image_search.h	/^        std::string _similar_delete =$/;"	m	class:aip::Imagesearch
+_similar_search	speech/image_search.h	/^        std::string _similar_search =$/;"	m	class:aip::Imagesearch
+_similar_update	speech/image_search.h	/^        std::string _similar_update =$/;"	m	class:aip::Imagesearch
+_simnet	speech/nlp.h	/^        std::string _simnet =$/;"	m	class:aip::Nlp
+_table_recognize	speech/ocr.h	/^        std::string _table_recognize =$/;"	m	class:aip::Ocr
+_table_result_get	speech/ocr.h	/^        std::string _table_result_get =$/;"	m	class:aip::Ocr
+_task_info	speech/kg.h	/^        std::string _task_info =$/;"	m	class:aip::Kg
+_task_query	speech/kg.h	/^        std::string _task_query =$/;"	m	class:aip::Kg
+_task_start	speech/kg.h	/^        std::string _task_start =$/;"	m	class:aip::Kg
+_task_status	speech/kg.h	/^        std::string _task_status =$/;"	m	class:aip::Kg
+_topic	speech/nlp.h	/^        std::string _topic =$/;"	m	class:aip::Nlp
+_tts	speech/speech.h	/^        std::string _tts = "http:\/\/tsn.baidu.com\/text2audio";$/;"	m	class:aip::Speech
+_update_task	speech/kg.h	/^        std::string _update_task =$/;"	m	class:aip::Kg
+_user_add	speech/face.h	/^        std::string _user_add =$/;"	m	class:aip::Face
+_user_copy	speech/face.h	/^        std::string _user_copy =$/;"	m	class:aip::Face
+_user_defined	speech/content_censor.h	/^        std::string _user_defined =$/;"	m	class:aip::Contentcensor
+_user_delete	speech/face.h	/^        std::string _user_delete =$/;"	m	class:aip::Face
+_user_get	speech/face.h	/^        std::string _user_get =$/;"	m	class:aip::Face
+_user_update	speech/face.h	/^        std::string _user_update =$/;"	m	class:aip::Face
+_vat_invoice	speech/ocr.h	/^        std::string _vat_invoice =$/;"	m	class:aip::Ocr
+_vehicle_license	speech/ocr.h	/^        std::string _vehicle_license =$/;"	m	class:aip::Ocr
+_video_sessioncode	speech/face.h	/^        std::string _video_sessioncode =$/;"	m	class:aip::Face
+_web_image	speech/ocr.h	/^        std::string _web_image =$/;"	m	class:aip::Ocr
+_word_embedding	speech/nlp.h	/^        std::string _word_embedding =$/;"	m	class:aip::Nlp
+_word_sim_embedding	speech/nlp.h	/^        std::string _word_sim_embedding =$/;"	m	class:aip::Nlp
+access_token	speech/base/base.h	/^        std::string access_token;$/;"	m	class:aip::AipBase
+accurate	speech/ocr.h	/^        Json::Value accurate($/;"	f	class:aip::Ocr
+accurate_basic	speech/ocr.h	/^        Json::Value accurate_basic($/;"	f	class:aip::Ocr
+advanced_general	speech/image_classify.h	/^        Json::Value advanced_general($/;"	f	class:aip::Imageclassify
+aip	speech/base/base.h	/^namespace aip {$/;"	n
+aip	speech/base/base64.h	/^namespace aip {$/;"	n
+aip	speech/base/http.h	/^namespace aip {$/;"	n
+aip	speech/base/utils.h	/^namespace aip {$/;"	n
+aip	speech/body_analysis.h	/^namespace aip {$/;"	n
+aip	speech/content_censor.h	/^namespace aip {$/;"	n
+aip	speech/face.h	/^namespace aip {$/;"	n
+aip	speech/image_classify.h	/^namespace aip {$/;"	n
+aip	speech/image_search.h	/^namespace aip {$/;"	n
+aip	speech/kg.h	/^namespace aip {$/;"	n
+aip	speech/nlp.h	/^namespace aip {$/;"	n
+aip	speech/ocr.h	/^namespace aip {$/;"	n
+aip	speech/speech.h	/^namespace aip {$/;"	n
+ak	speech/base/base.h	/^        std::string ak;$/;"	m	class:aip::AipBase
+animal_detect	speech/image_classify.h	/^        Json::Value animal_detect($/;"	f	class:aip::Imageclassify
+anti_porn_gif	speech/content_censor.h	/^        Json::Value anti_porn_gif($/;"	f	class:aip::Contentcensor
+anti_spam	speech/content_censor.h	/^        Json::Value anti_spam($/;"	f	class:aip::Contentcensor
+api_key	Jarvis.hpp	/^		std::string api_key;$/;"	m	class:Robot
+appendHeaders	speech/base/http.h	/^        void appendHeaders(std::map<std::string, std::string> const & headers, curl_slist ** slist) const$/;"	f	class:aip::HttpClient
+appendUrlParams	speech/base/http.h	/^        void appendUrlParams(std::map<std::string, std::string> const & params, std::string* url) const$/;"	f	class:aip::HttpClient
+bankcard	speech/ocr.h	/^        Json::Value bankcard($/;"	f	class:aip::Ocr
+base64_chars	speech/base/base64.h	/^    static const std::string base64_chars =$/;"	m	namespace:aip
+base64_decode	speech/base/base64.h	/^    std::string base64_decode(std::string const & encoded_string)$/;"	f	namespace:aip
+base64_encode	speech/base/base64.h	/^    std::string base64_encode(const char * bytes_to_encode, unsigned int in_len)$/;"	f	namespace:aip
+bin	makefile	/^bin=Jarvis$/;"	m
+body_analysis	speech/body_analysis.h	/^        Json::Value body_analysis($/;"	f	class:aip::Bodyanalysis
+body_attr	speech/body_analysis.h	/^        Json::Value body_attr($/;"	f	class:aip::Bodyanalysis
+body_num	speech/body_analysis.h	/^        Json::Value body_num($/;"	f	class:aip::Bodyanalysis
+business_card	speech/ocr.h	/^        Json::Value business_card($/;"	f	class:aip::Ocr
+business_license	speech/ocr.h	/^        Json::Value business_license($/;"	f	class:aip::Ocr
+canonicalize_headers	speech/base/utils.h	/^    std::string canonicalize_headers(std::map<std::string, std::string> & headers)$/;"	f	namespace:aip
+canonicalize_params	speech/base/utils.h	/^    std::string canonicalize_params(std::map<std::string, std::string> & params)$/;"	f	namespace:aip
+car_detect	speech/image_classify.h	/^        Json::Value car_detect($/;"	f	class:aip::Imageclassify
+client	Jarvis.hpp	/^		aip::HttpClient client;$/;"	m	class:Robot
+client	speech/base/base.h	/^        HttpClient client;$/;"	m	class:aip::AipBase
+combo	speech/content_censor.h	/^        Json::Value combo($/;"	f	class:aip::Contentcensor
+comment_tag	speech/nlp.h	/^        Json::Value comment_tag($/;"	f	class:aip::Nlp
+connect_timeout	speech/base/http.h	/^        int connect_timeout = 10000;$/;"	m	class:aip::HttpClient
+crbuilder	speech/base/base.h	/^        Json::CharReaderBuilder crbuilder;$/;"	m	class:aip::AipBase
+create_task	speech/kg.h	/^        Json::Value create_task($/;"	f	class:aip::Kg
+custom	speech/ocr.h	/^        Json::Value custom($/;"	f	class:aip::Ocr
+debug	speech/base/http.h	/^        bool debug = false;$/;"	m	class:aip::HttpClient
+dep_parser	speech/nlp.h	/^        Json::Value dep_parser($/;"	f	class:aip::Nlp
+detect	speech/face.h	/^        Json::Value detect($/;"	f	class:aip::Face
+dish_detect	speech/image_classify.h	/^        Json::Value dish_detect($/;"	f	class:aip::Imageclassify
+dnnlm_cn	speech/nlp.h	/^        Json::Value dnnlm_cn($/;"	f	class:aip::Nlp
+driving_license	speech/ocr.h	/^        Json::Value driving_license($/;"	f	class:aip::Ocr
+ecnet	speech/nlp.h	/^        Json::Value ecnet($/;"	f	class:aip::Nlp
+emotion	speech/nlp.h	/^        Json::Value emotion($/;"	f	class:aip::Nlp
+face_audit	speech/content_censor.h	/^        Json::Value face_audit($/;"	f	class:aip::Contentcensor
+face_delete	speech/face.h	/^        Json::Value face_delete($/;"	f	class:aip::Face
+face_getlist	speech/face.h	/^        Json::Value face_getlist($/;"	f	class:aip::Face
+faceverify	speech/face.h	/^        Json::Value faceverify($/;"	f	class:aip::Face
+form	speech/ocr.h	/^        Json::Value form($/;"	f	class:aip::Ocr
+general	speech/ocr.h	/^        Json::Value general($/;"	f	class:aip::Ocr
+general_basic	speech/ocr.h	/^        Json::Value general_basic($/;"	f	class:aip::Ocr
+general_basic_url	speech/ocr.h	/^        Json::Value general_basic_url($/;"	f	class:aip::Ocr
+general_enhanced	speech/ocr.h	/^        Json::Value general_enhanced($/;"	f	class:aip::Ocr
+general_enhanced_url	speech/ocr.h	/^        Json::Value general_enhanced_url($/;"	f	class:aip::Ocr
+general_url	speech/ocr.h	/^        Json::Value general_url($/;"	f	class:aip::Ocr
+get	speech/base/http.h	/^        int get($/;"	f	class:aip::HttpClient
+getAccessToken	speech/base/base.h	/^        std::string getAccessToken()$/;"	f	class:aip::AipBase
+getAk	speech/base/base.h	/^        std::string getAk() {$/;"	f	class:aip::AipBase
+get_file_content	speech/base/utils.h	/^    inline int get_file_content(const char *filename, std::string* out) {$/;"	f	namespace:aip
+get_headers_keys	speech/base/utils.h	/^    std::string get_headers_keys(std::map<std::string, std::string> & headers)$/;"	f	namespace:aip
+get_host	speech/base/utils.h	/^    std::string get_host(const std::string & url)$/;"	f	namespace:aip
+get_path	speech/base/utils.h	/^    std::string get_path(const std::string & url)$/;"	f	namespace:aip
+getall	speech/base/utils.h	/^    std::basic_istream<CharT, Traits>& getall(std::basic_istream<CharT, Traits>& input,$/;"	f	namespace:aip
+group_add	speech/face.h	/^        Json::Value group_add($/;"	f	class:aip::Face
+group_delete	speech/face.h	/^        Json::Value group_delete($/;"	f	class:aip::Face
+group_getlist	speech/face.h	/^        Json::Value group_getlist($/;"	f	class:aip::Face
+group_getusers	speech/face.h	/^        Json::Value group_getusers($/;"	f	class:aip::Face
+handwriting	speech/ocr.h	/^        Json::Value handwriting($/;"	f	class:aip::Ocr
+hmac_sha256	speech/base/utils.h	/^    std::string hmac_sha256($/;"	f	namespace:aip
+idcard	speech/ocr.h	/^        Json::Value idcard($/;"	f	class:aip::Ocr
+include	makefile	/^include=-Ispeech$/;"	m
+is_base64	speech/base/base64.h	/^    static inline bool is_base64(const char c)$/;"	f	namespace:aip
+keyword	speech/nlp.h	/^        Json::Value keyword($/;"	f	class:aip::Nlp
+lexer	speech/nlp.h	/^        Json::Value lexer($/;"	f	class:aip::Nlp
+lexer_custom	speech/nlp.h	/^        Json::Value lexer_custom($/;"	f	class:aip::Nlp
+license_plate	speech/ocr.h	/^        Json::Value license_plate($/;"	f	class:aip::Ocr
+logo_add	speech/image_classify.h	/^        Json::Value logo_add($/;"	f	class:aip::Imageclassify
+logo_delete_by_image	speech/image_classify.h	/^        Json::Value logo_delete_by_image($/;"	f	class:aip::Imageclassify
+logo_delete_by_sign	speech/image_classify.h	/^        Json::Value logo_delete_by_sign($/;"	f	class:aip::Imageclassify
+logo_search	speech/image_classify.h	/^        Json::Value logo_search($/;"	f	class:aip::Imageclassify
+lottery	speech/ocr.h	/^        Json::Value lottery($/;"	f	class:aip::Ocr
+main	Jarvis.cc	/^int main()$/;"	f
+main	test/test.cc	/^int main()$/;"	f
+makeUrlencodedForm	speech/base/http.h	/^        void makeUrlencodedForm(std::map<std::string, std::string> const & params, std::string * content) const$/;"	f	class:aip::HttpClient
+match	speech/face.h	/^        Json::Value match($/;"	f	class:aip::Face
+now	speech/base/utils.h	/^    inline time_t now()$/;"	f	namespace:aip
+null	speech/base/base.h	/^    static const std::map<std::string, std::string> null;$/;"	m	namespace:aip
+numbers	speech/ocr.h	/^        Json::Value numbers($/;"	f	class:aip::Ocr
+object_detect	speech/image_classify.h	/^        Json::Value object_detect($/;"	f	class:aip::Imageclassify
+onWriteData	speech/base/http.h	/^    inline size_t onWriteData(void * buffer, size_t size, size_t nmemb, void * userp)$/;"	f	namespace:aip
+passport	speech/ocr.h	/^        Json::Value passport($/;"	f	class:aip::Ocr
+person_verify	speech/face.h	/^        Json::Value person_verify($/;"	f	class:aip::Face
+plant_detect	speech/image_classify.h	/^        Json::Value plant_detect($/;"	f	class:aip::Imageclassify
+post	speech/base/http.h	/^        int post($/;"	f	class:aip::HttpClient
+prepare_request	speech/base/base.h	/^        void prepare_request(std::string url,$/;"	f	class:aip::AipBase
+product_add	speech/image_search.h	/^        Json::Value product_add($/;"	f	class:aip::Imagesearch
+product_delete_by_image	speech/image_search.h	/^        Json::Value product_delete_by_image($/;"	f	class:aip::Imagesearch
+product_delete_by_sign	speech/image_search.h	/^        Json::Value product_delete_by_sign($/;"	f	class:aip::Imagesearch
+product_search	speech/image_search.h	/^        Json::Value product_search($/;"	f	class:aip::Imagesearch
+product_update	speech/image_search.h	/^        Json::Value product_update($/;"	f	class:aip::Imagesearch
+qrcode	speech/ocr.h	/^        Json::Value qrcode($/;"	f	class:aip::Ocr
+receipt	speech/ocr.h	/^        Json::Value receipt($/;"	f	class:aip::Ocr
+recognize	speech/speech.h	/^        Json::Value recognize(const std::string voice_binary, const std::string & format, const int & rate, std::map<std::string, std::string> const & options)$/;"	f	class:aip::Speech
+recognize_url	speech/speech.h	/^        Json::Value recognize_url(const std::string & url,$/;"	f	class:aip::Speech
+report	speech/content_censor.h	/^        Json::Value report($/;"	f	class:aip::Contentcensor
+request	speech/base/base.h	/^        Json::Value request($/;"	f	class:aip::AipBase
+request_asr	speech/speech.h	/^        Json::Value request_asr($/;"	f	class:aip::Speech
+request_tts	speech/speech.h	/^        Json::Value request_tts($/;"	f	class:aip::Speech
+same_hq_add	speech/image_search.h	/^        Json::Value same_hq_add($/;"	f	class:aip::Imagesearch
+same_hq_delete_by_image	speech/image_search.h	/^        Json::Value same_hq_delete_by_image($/;"	f	class:aip::Imagesearch
+same_hq_delete_by_sign	speech/image_search.h	/^        Json::Value same_hq_delete_by_sign($/;"	f	class:aip::Imagesearch
+same_hq_search	speech/image_search.h	/^        Json::Value same_hq_search($/;"	f	class:aip::Imagesearch
+same_hq_update	speech/image_search.h	/^        Json::Value same_hq_update($/;"	f	class:aip::Imagesearch
+search	speech/face.h	/^        Json::Value search($/;"	f	class:aip::Face
+sentiment_classify	speech/nlp.h	/^        Json::Value sentiment_classify($/;"	f	class:aip::Nlp
+setConnectTimeout	speech/base/http.h	/^        void setConnectTimeout(int connect_timeout)$/;"	f	class:aip::HttpClient
+setConnectionTimeoutInMillis	speech/base/base.h	/^        void setConnectionTimeoutInMillis(int connect_timeout)$/;"	f	class:aip::AipBase
+setDebug	speech/base/base.h	/^        void setDebug(bool debug)$/;"	f	class:aip::AipBase
+setDebug	speech/base/http.h	/^        void setDebug(bool debug)$/;"	f	class:aip::HttpClient
+setSocketTimeout	speech/base/http.h	/^        void setSocketTimeout(int socket_timeout)$/;"	f	class:aip::HttpClient
+setSocketTimeoutInMillis	speech/base/base.h	/^        void setSocketTimeoutInMillis(int socket_timeout)$/;"	f	class:aip::AipBase
+set_is_bce	speech/base/base.h	/^        void set_is_bce() {$/;"	f	class:aip::AipBase
+sign	speech/base/utils.h	/^    void sign($/;"	f	namespace:aip
+similar_add	speech/image_search.h	/^        Json::Value similar_add($/;"	f	class:aip::Imagesearch
+similar_delete_by_image	speech/image_search.h	/^        Json::Value similar_delete_by_image($/;"	f	class:aip::Imagesearch
+similar_delete_by_sign	speech/image_search.h	/^        Json::Value similar_delete_by_sign($/;"	f	class:aip::Imagesearch
+similar_search	speech/image_search.h	/^        Json::Value similar_search($/;"	f	class:aip::Imagesearch
+similar_update	speech/image_search.h	/^        Json::Value similar_update($/;"	f	class:aip::Imagesearch
+simnet	speech/nlp.h	/^        Json::Value simnet($/;"	f	class:aip::Nlp
+sk	speech/base/base.h	/^        std::string sk;$/;"	m	class:aip::AipBase
+socket_timeout	speech/base/http.h	/^        int socket_timeout = 10000;$/;"	m	class:aip::HttpClient
+src	makefile	/^src=Jarvis.cc$/;"	m
+table_recognize	speech/ocr.h	/^        Json::Value table_recognize($/;"	f	class:aip::Ocr
+table_result_get	speech/ocr.h	/^        Json::Value table_result_get($/;"	f	class:aip::Ocr
+task_info	speech/kg.h	/^        Json::Value task_info($/;"	f	class:aip::Kg
+task_query	speech/kg.h	/^        Json::Value task_query($/;"	f	class:aip::Kg
+task_start	speech/kg.h	/^        Json::Value task_start($/;"	f	class:aip::Kg
+task_status	speech/kg.h	/^        Json::Value task_status($/;"	f	class:aip::Kg
+text2audio	speech/speech.h	/^        Json::Value text2audio(const std::string & text, std::map<std::string, std::string> const & options, std::string & file_content)$/;"	f	class:aip::Speech
+to_hex	speech/base/utils.h	/^    inline std::string to_hex(unsigned char c, bool lower = false)$/;"	f	namespace:aip
+to_lower	speech/base/utils.h	/^    inline std::string to_lower(std::string src)$/;"	f	namespace:aip
+to_upper	speech/base/utils.h	/^    inline std::string to_upper(std::string src)$/;"	f	namespace:aip
+topic	speech/nlp.h	/^        Json::Value topic($/;"	f	class:aip::Nlp
+update_task	speech/kg.h	/^        Json::Value update_task($/;"	f	class:aip::Kg
+url_encode	speech/base/utils.h	/^    std::string url_encode(const std::string & input, bool encode_slash=true)$/;"	f	namespace:aip
+url_parse	speech/base/utils.h	/^    void url_parse($/;"	f	namespace:aip
+user_add	speech/face.h	/^        Json::Value user_add($/;"	f	class:aip::Face
+user_copy	speech/face.h	/^        Json::Value user_copy($/;"	f	class:aip::Face
+user_defined	speech/content_censor.h	/^        Json::Value user_defined($/;"	f	class:aip::Contentcensor
+user_delete	speech/face.h	/^        Json::Value user_delete($/;"	f	class:aip::Face
+user_get	speech/face.h	/^        Json::Value user_get($/;"	f	class:aip::Face
+user_id	Jarvis.hpp	/^		std::string user_id;$/;"	m	class:Robot
+user_update	speech/face.h	/^        Json::Value user_update($/;"	f	class:aip::Face
+utc_time	speech/base/utils.h	/^    std::string utc_time(time_t timestamp)$/;"	f	namespace:aip
+vat_invoice	speech/ocr.h	/^        Json::Value vat_invoice($/;"	f	class:aip::Ocr
+vector_join	speech/base/base.h	/^        std::string vector_join(const std::vector<std::string> & v_images, VECTOR_JOIN_TYPE type) {$/;"	f	class:aip::AipBase
+vector_join_base64	speech/base/base.h	/^        std::string vector_join_base64(const std::vector<std::string> & v_images) {$/;"	f	class:aip::AipBase
+vector_join_url	speech/base/base.h	/^        std::string vector_join_url(const std::vector<std::string> & v_images) {$/;"	f	class:aip::AipBase
+vehicle_license	speech/ocr.h	/^        Json::Value vehicle_license($/;"	f	class:aip::Ocr
+video_sessioncode	speech/face.h	/^        Json::Value video_sessioncode($/;"	f	class:aip::Face
+web_image	speech/ocr.h	/^        Json::Value web_image($/;"	f	class:aip::Ocr
+web_image_url	speech/ocr.h	/^        Json::Value web_image_url($/;"	f	class:aip::Ocr
+word_embedding	speech/nlp.h	/^        Json::Value word_embedding($/;"	f	class:aip::Nlp
+word_sim_embedding	speech/nlp.h	/^        Json::Value word_sim_embedding($/;"	f	class:aip::Nlp
+~Jarvis	Jarvis.hpp	/^		~Jarvis(){$/;"	f	class:Jarvis
+~Robot	Jarvis.hpp	/^		~Robot()$/;"	f	class:Robot
