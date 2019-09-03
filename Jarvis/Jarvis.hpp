@@ -167,7 +167,7 @@ class Robot{
 				std::cerr << "reponse code error" << std::endl;
 				return "";
 			}
-			Json::Value item = root["result"][0];
+			Json::Value item = root["results"][0];
 			std::string msg = item["values"]["text"].asString();
 			return msg;
 		}
@@ -231,7 +231,7 @@ class SpeechRec{
 				std::cout << "Recognize error" << std::endl;
 				return false;
 			}
-			out = result["results"][0].asString();
+			out = result["result"][0].asString();
 			return true;
 		}
 		bool TTS(std::string message)
