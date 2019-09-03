@@ -231,7 +231,7 @@ class SpeechRec{
 				std::cout << "Recognize error" << std::endl;
 				return false;
 			}
-			out = result["result"][0].asString();
+			out = result["results"][0].asString();
 			return true;
 		}
 		bool TTS(std::string message)
@@ -326,6 +326,7 @@ class Jarvis{
 				return false;
 			}
 			cmd = iter->second;
+			return true;
 		}
 		void Run()
 		{
